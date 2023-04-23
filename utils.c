@@ -13,7 +13,6 @@ int is_printable(char c)
 
 	return (0);
 }
-
 /**
  * append_hexa_code - Append ascci in hexadecimal code to buffer
  * @buffer: Array of chars.
@@ -58,6 +57,7 @@ int is_digit(char c)
  *
  * Return: Casted value of num
  */
+
 long int convert_size_number(long int num, int size)
 {
 	if (size == S_LONG)
